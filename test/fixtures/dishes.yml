@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  string: 
+  string: 
+  float: 
+  text: 
+
+two:
+  string: 
+  string: 
+  float: 
+  text: 
