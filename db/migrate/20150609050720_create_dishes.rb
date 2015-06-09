@@ -2,8 +2,8 @@ class CreateDishes < ActiveRecord::Migration
   def change
     create_table :dishes do |t|
       t.string :name
-      t.text :description
       t.float :price
+      t.text :description
       t.integer :course_id
 
       t.timestamps null: false
