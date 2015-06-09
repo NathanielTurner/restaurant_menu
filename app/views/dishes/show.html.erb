@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>String:</strong>
+  <%= @dish.string %>
+</p>
+
+<p>
+  <strong>Text:</strong>
+  <%= @dish.text %>
+</p>
+
+<p>
+  <strong>Float:</strong>
+  <%= @dish.float %>
+</p>
+
+<p>
+  <strong>Integer:</strong>
+  <%= @dish.integer %>
+</p>
+
+<%= link_to 'Edit', edit_dish_path(@dish) %> |
+<%= link_to 'Back', dishes_path %>
